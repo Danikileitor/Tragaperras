@@ -9,6 +9,7 @@ on:
 
 jobs:
   Build:
+    environment: Docker
     runs-on: ubuntu-latest
 
     steps:
