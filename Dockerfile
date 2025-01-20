@@ -27,7 +27,7 @@ WORKDIR /app
 COPY --from=build /app/target/*.jar app.jar
 
 #Mondongo
-ENV APP_NAME=demo
+ENV APP_NAME=tragaperras
 ENV MONGO_URI=mongodb://mongo:27017/
 
 # Exponemos el puerto en el que la app Spring Boot escucha (por defecto 8080)
