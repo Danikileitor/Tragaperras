@@ -14,7 +14,7 @@
 	<version>1.0.0</version>
 	<name>Tragaperras</name>
 	<description>Una tragaperras en Spring Boot con MongoDB</description>
-	<url>https://github.com/Danikileitor/Tragaperras</url>
+	<url>https://github.com/dnk-casino/Tragaperras</url>
 	<licenses>
 		<license>
 			<name>GNU General Public License, version 3</name>
