@@ -9,7 +9,6 @@ on:
 
 jobs:
   Build:
-    environment: Docker
     runs-on: ubuntu-latest
 
     steps:
@@ -53,7 +52,6 @@ jobs:
 
   Deploy-Render:
     needs: Build
-    environment: Render
     runs-on: ubuntu-latest
 
     steps:
