@@ -19,6 +19,7 @@ public class Usuario {
     private Rol rol;
     private int coins;
     private int wins;
+    private int bjwins;
     private Set<String> skins;
     private Date lastLoginDate;
     private String tokenRestablecimientoContrasena;
@@ -34,6 +35,7 @@ public class Usuario {
         this.rol = Rol.ROLE_USER;
         this.coins = 0;
         this.wins = 0;
+        this.bjwins = 0;
         this.skins = new HashSet<>();
         this.lastLoginDate = new Date(0);
         this.tokenRestablecimientoContrasena = null;
@@ -102,6 +104,14 @@ public class Usuario {
         this.wins = wins;
     }
 
+    public int getBjwins() {
+        return bjwins;
+    }
+
+    public void setBjwins(int bjwins) {
+        this.bjwins = bjwins;
+    }
+
     public Set<String> getSkins() {
         return skins;
     }
@@ -155,5 +165,17 @@ public class Usuario {
 
     public void victoria() {
         wins++;
+    }
+
+    public void bjvictoria() {
+        bjwins++;
+    }
+
+    public void pagar(int coins) {
+        this.coins -= coins;
+    }
+
+    public void cobrar(int coins) {
+        this.coins += coins;
     }
 }
