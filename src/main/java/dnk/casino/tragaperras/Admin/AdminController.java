@@ -1,12 +1,13 @@
 package dnk.casino.tragaperras.Admin;
 
-import dnk.casino.tragaperras.Skins.Skin;
-import dnk.casino.tragaperras.Skins.SkinRepository;
-import dnk.casino.tragaperras.Skins.SkinService;
-import dnk.casino.tragaperras.Users.Rol;
-import dnk.casino.tragaperras.Users.Usuario;
-import dnk.casino.tragaperras.Users.UsuarioService;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
+import dnk.casino.Skins.Skin;
+import dnk.casino.Skins.SkinRepository;
+import dnk.casino.Skins.SkinService;
+import dnk.casino.Users.Rol;
+import dnk.casino.Users.Usuario;
+import dnk.casino.Users.UsuarioService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

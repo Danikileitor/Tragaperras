@@ -11,12 +11,13 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import dnk.casino.tragaperras.Skins.Skin;
-import dnk.casino.tragaperras.Skins.SkinRepository;
-import dnk.casino.tragaperras.Users.JwtTokenUtil;
-import dnk.casino.tragaperras.Users.Usuario;
-import dnk.casino.tragaperras.Users.UsuarioService;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
+import dnk.casino.Skins.Skin;
+import dnk.casino.Skins.SkinRepository;
+import dnk.casino.Users.JwtTokenUtil;
+import dnk.casino.Users.Usuario;
+import dnk.casino.Users.UsuarioService;
 
 @RestController
 @RequestMapping("/shop/api")

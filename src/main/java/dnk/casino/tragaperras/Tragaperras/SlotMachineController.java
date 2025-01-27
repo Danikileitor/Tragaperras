@@ -1,4 +1,4 @@
-package dnk.casino.tragaperras;
+package dnk.casino.tragaperras.Tragaperras;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -22,13 +22,14 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import dnk.casino.tragaperras.Skins.Skin;
-import dnk.casino.tragaperras.Skins.SkinRepository;
-import dnk.casino.tragaperras.Users.JwtTokenUtil;
-import dnk.casino.tragaperras.Users.Usuario;
-import dnk.casino.tragaperras.Users.UsuarioService;
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
+import dnk.casino.Skins.Skin;
+import dnk.casino.Skins.SkinRepository;
+import dnk.casino.Users.JwtTokenUtil;
+import dnk.casino.Users.Usuario;
+import dnk.casino.Users.UsuarioService;
 
 @Controller
 public class SlotMachineController {

@@ -1,10 +1,10 @@
-package dnk.casino.tragaperras;
+package dnk.casino.tragaperras.Tragaperras;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import dnk.casino.tragaperras.Users.Usuario;
-import dnk.casino.tragaperras.Users.UsuarioService;
+import dnk.casino.Users.Usuario;
+import dnk.casino.Users.UsuarioService;
 
 public class Ranking {
 

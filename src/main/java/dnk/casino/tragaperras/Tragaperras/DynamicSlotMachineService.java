@@ -1,4 +1,4 @@
-package dnk.casino.tragaperras;
+package dnk.casino.tragaperras.Tragaperras;
 
 import org.bson.Document;
 import org.springframework.beans.factory.annotation.Autowired;
