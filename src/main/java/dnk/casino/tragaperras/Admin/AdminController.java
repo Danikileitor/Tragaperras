@@ -5,8 +5,8 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import dnk.casino.Skins.Skin;
 import dnk.casino.Skins.SkinRepository;
 import dnk.casino.Skins.SkinService;
-import dnk.casino.Users.Rol;
 import dnk.casino.Users.Usuario;
+import dnk.casino.Users.Usuario.Rol;
 import dnk.casino.Users.UsuarioService;
 
 import org.springframework.beans.factory.annotation.Autowired;
